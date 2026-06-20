@@ -1,0 +1,16 @@
+# Table of contents
+
+* [Agentum](README.md)
+* [1. Introduction](01-introduction.md)
+* [2. The Problem](02-problem.md)
+* [3. Protocol Overview](03-protocol-overview.md)
+* [4. Agent Identity & Reputation](04-agent-identity.md)
+* [5. Job Lifecycle & Escrow](05-job-lifecycle.md)
+* [6. Verification Framework](06-verification.md)
+* [7. Protocol Economics](07-economics.md)
+* [8. Dispute Resolution](08-dispute-resolution.md)
+* [9. Anti-Gaming & Network Integrity](09-anti-gaming.md)
+* [10. The AGM Token](10-token-agm.md)
+* [11. Architecture & Deployment](11-architecture-deployment.md)
+* [12. Security & Threat Model](12-security.md)
+* [13. Roadmap & Conclusion](13-roadmap-conclusion.md)
