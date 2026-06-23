@@ -36,30 +36,47 @@ The **21,000,000** cap is deliberate: a hard, BTC-scale ceiling that signals sca
 
 ## 10.4 Distribution
 
-The proposed genesis allocation prioritizes the **community and ecosystem** — the agents, builders, and contributors who make the network valuable — over insiders.
+AGM's genesis allocation is **community-first**: nearly two-thirds of all AGM is directed to the community and the ecosystem that make the network valuable, while the team and investors are aligned through long vesting with no early unlocks.
 
-| Allocation | % _(proposed)_ | AGM _(proposed)_ | Purpose | Vesting _(proposed)_ |
+| Allocation | % | AGM (of 21M) | Purpose | Unlock |
 | --- | --- | --- | --- | --- |
-| Community & ecosystem | 30% | 6,300,000 | Agent incentives, grants, airdrops, growth | Released over network milestones |
-| Liquidity & exchange | 15% | 3,150,000 | DEX/CEX liquidity, market-making, listing | Largely unlocked at TGE |
-| Treasury / DAO | 20% | 4,200,000 | Protocol-owned reserve, governed by AGM | Governance-controlled vesting |
-| Core contributors | 18% | 3,780,000 | Team building the protocol | 12-month cliff, 36-month linear |
-| Investors | 12% | 2,520,000 | Early backers | 12-month cliff, 24–36-month linear |
-| Advisors & partners | 5% | 1,050,000 | Strategic advisors, integrations | 6-month cliff, 24-month linear |
+| **Community** | **44.00%** | 9,240,000 | Airdrop + user & developer incentives | _see breakdown_ |
+| ↳ Airdrop | 12.00% | 2,520,000 | Reward early users and the community | **100% at TGE** |
+| ↳ User & developer incentives | 32.00% | 6,720,000 | Usage rewards, builder grants, agent onboarding | **Linear over 12 months from TGE** |
+| **Ecosystem & R&D reserve** | **19.55%** | 4,105,500 | Protocol R&D, integrations, liquidity provisioning, DAO-governed reserve | Multisig/DAO-controlled; ~48-month linear _(proposed)_ |
+| **Team** | **24.00%** | 5,040,000 | Core contributors building the protocol | 12-month cliff, then 36-month linear _(proposed)_ |
+| **Institutional investors** | **12.45%** | 2,614,500 | Early backers | 12-month cliff, then 18-month linear _(proposed)_ |
 | **Total** | **100%** | **21,000,000** | | |
 
 ```mermaid
 pie showData
-    title AGM allocation (proposed)
-    "Community & ecosystem" : 30
-    "Treasury / DAO" : 20
-    "Core contributors" : 18
-    "Liquidity & exchange" : 15
-    "Investors" : 12
-    "Advisors & partners" : 5
+    title AGM allocation
+    "Community (airdrop + incentives)" : 44
+    "Team" : 24
+    "Ecosystem & R&D reserve" : 19.55
+    "Institutional investors" : 12.45
 ```
 
-Vesting cliffs and linear unlocks on insider allocations align the team and investors with the network's long horizon and protect the market from concentrated early supply. **Final percentages, amounts, and schedules are subject to tokenomics finalization and governance approval at TGE.**
+The four top-level allocations (44 / 19.55 / 24 / 12.45) and the headline unlock rules — **airdrop fully unlocked at TGE, the rest of the community allocation vesting linearly over the first year, and investors on a 12-month cliff** — are fixed. The community sub-split and the team / ecosystem / investor linear durations are implementation detail, marked _proposed_ and subject to finalization at TGE.
+
+### Unlock schedule
+
+Based on the schedule above, cumulative circulating supply (as a share of the 21M total) evolves roughly as follows:
+
+| Milestone | Airdrop | Community incentives | Ecosystem & R&D | Team | Investors | **Cumulative** |
+| --- | --- | --- | --- | --- | --- | --- |
+| **TGE** | 12.00% | 0% | 0% | 0% | 0% | **12.00%** |
+| **End of Year 1** | 12.00% | 32.00% | 4.89% | 0% | 0% | **48.89%** |
+| **End of Year 2** | 12.00% | 32.00% | 9.78% | 8.00% | 8.30% | **70.08%** |
+| **End of Year 3** | 12.00% | 32.00% | 14.66% | 16.00% | 12.45% | **87.11%** |
+| **End of Year 4** | 12.00% | 32.00% | 19.55% | 24.00% | 12.45% | **100.00%** |
+
+_Illustrative, based on the proposed (non-fixed) vesting durations above._ Two properties are worth highlighting:
+
+* **No insider unlocks in Year 1.** Both the team and investors sit behind a 12-month cliff, so none of their tokens reach the market in the first year — protecting early price discovery from concentrated supply.
+* **Community-led float.** The circulating supply through the first year is composed entirely of community allocations (airdrop + incentives), keeping early distribution wide rather than insider-heavy.
+
+Final percentages within the community bucket, amounts, and the proposed vesting durations are subject to tokenomics finalization and governance approval at TGE.
 
 ## 10.5 Protocol revenue and value accrual
 
@@ -111,7 +128,7 @@ As usage grows, more fees are collected, a governed portion buys AGM on the open
 
 ## 10.6 Treasury management
 
-The protocol treasury is **protocol-owned and AGM-governed**. Its proposed standing allocation balances growth, security, and sustainability:
+The protocol-owned reserve — funded by the **Ecosystem & R&D allocation** (§10.4) and by ongoing **protocol revenue** (§10.5) — is **AGM-governed**. Its proposed standing deployment balances growth, security, and sustainability:
 
 | Treasury use | Share _(proposed)_ |
 | --- | --- |

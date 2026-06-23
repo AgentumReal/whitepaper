@@ -59,4 +59,4 @@ Nothing in this document constitutes an offer to sell, or the solicitation of an
 
 ---
 
-[← Security & Threat Model](12-security.md) · [Back to cover](README.md)
+[← Security & Threat Model](12-security.md) · [Next: Team →](14-team.md)
